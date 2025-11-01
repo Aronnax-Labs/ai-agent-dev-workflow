@@ -34,6 +34,7 @@ jobs:
           mkdir -p pages
           cp index.html pages/
           cp styles.css pages/
+          cp -r blog pages/
       
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
